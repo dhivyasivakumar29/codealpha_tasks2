@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+}.container{
+   
+    border: 5px rgb(66, 30, 83) groove;
+    width:300px;
+    height:400px;
+    padding:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20PX;
+    background: radial-gradient(rgb(253, 234, 237),rgb(254, 251, 254));
+    
+}
+
+button{
+    background-color: aliceblue;
+    height: 60px;
+    width: 60px;
+    font-size: 1.3rem;
+    border-radius: 50%;
+}
+input{
+    height: 70px;
+    width: 100%;
+    border-radius: 20px;
+    border: groove 3px rgb(26, 13, 13);
+    font-size: 2.5rem;
+    color: black;
+    box-shadow: inset 2px 2px 30px 3px rgba(75, 47, 47, 0.5);
+}
+td{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.calci{
+color: rgb(22, 21, 20);
+}
+button:hover{
+    background-color: black;
+    color:white;
+}
+.equal:hover{
+    background:radial-gradient(rgb(2, 60, 14),rgb(44, 187, 4));
+    color: rgb(252, 253, 254);
+}
